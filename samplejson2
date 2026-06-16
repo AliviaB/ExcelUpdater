@@ -1,0 +1,80 @@
+{
+  "companyName": "TechGlobal Academy",
+  "foundedYear": 2018,
+  "isActive": true,
+  "campuses": [
+    {
+      "campusId": "US-EAST-01",
+      "location": "New York",
+      "departments": [
+        {
+          "departmentName": "Data Science",
+          "headCount": 42,
+          "courses": [
+            {
+              "courseCode": "DS-101",
+              "title": "Introduction to Python and Analytics",
+              "scheduleMatrix": [
+                [8, 10],
+                [14, 16]
+              ],
+              "enrolledStudents": [
+                {
+                  "studentId": "STU-9941",
+                  "name": "Alice Vance",
+                  "contact": {
+                    "email": "alice.v@techglobal.com",
+                    "phones": ["+1-555-0192", "+1-555-0193"]
+                  },
+                  "grades": [92, 88, 95]
+                },
+                {
+                  "studentId": "STU-2281",
+                  "name": "Bob Chen",
+                  "contact": {
+                    "email": "b.chen@techglobal.com",
+                    "phones": ["+1-555-0431"]
+                  },
+                  "grades": [78, 85, 80]
+                }
+              ]
+            },
+            {
+              "courseCode": "DS-204",
+              "title": "Deep Learning Models",
+              "scheduleMatrix": [
+                [11, 13]
+              ],
+              "enrolledStudents": []
+            }
+          ]
+        },
+        {
+          "departmentName": "Software Engineering",
+          "headCount": 115,
+          "courses": [
+            {
+              "courseCode": "SE-302",
+              "title": "Microservices Architecture",
+              "scheduleMatrix": [
+                [9, 12],
+                [15, 18]
+              ],
+              "enrolledStudents": [
+                {
+                  "studentId": "STU-1044",
+                  "name": "David Miller",
+                  "contact": {
+                    "email": "d.miller@techglobal.com",
+                    "phones": []
+                  },
+                  "grades": [89, 91]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
