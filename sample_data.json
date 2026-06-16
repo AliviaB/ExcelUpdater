@@ -1,0 +1,25 @@
+{
+  "data": {
+    "team": {
+      "memberId": "T-001",
+      "memberName": "Alice Johnson",
+      "role": "Engineer",
+      "contact": {
+        "email": "alice@example.com",
+        "phone": "555-1234"
+      }
+    },
+    "project": {
+      "projectId": "P-202",
+      "projectName": "Phoenix",
+      "status": "active",
+      "budget": 50000
+    },
+    "createdAt": "2024-01-15",
+    "version": "2.1"
+  },
+  "metadata": {
+    "source": "HR System",
+    "region": "APAC"
+  }
+}
